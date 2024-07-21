@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
     useEffect(() => {
@@ -31,9 +32,6 @@ const Home = () => {
                                 <h3 className="text-lg font-semibold mb-4 text-center">Current World Champion</h3>
                                 <a href="https://en.wikipedia.org/wiki/Ding_Liren" target="_blank" rel="noopener noreferrer">
                                     <div className="bg-white rounded-lg shadow-md p-4 flex cursor-pointer">
-                                        {/* Player image on the left */}
-                                        <img src="https://chesspuzzle.net/Images/Players/Ding_Liren.jpg" alt="Male Player" className="w-24 h-24 mb-2 rounded-full" />
-                                        {/* Player details on the right */}
                                         <div className="ml-4">
                                             <p className="font-semibold">Ding Liren</p>
                                             <p className="text-gray-500">Grandmaster</p>
@@ -53,9 +51,9 @@ const Home = () => {
                                 <h3 className="text-lg font-semibold mb-4 text-center">Current Female World Champion</h3>
                                 <a href="https://en.wikipedia.org/wiki/Ju_Wenjun" target="_blank" rel="noopener noreferrer">
                                     <div className="bg-white rounded-lg shadow-md p-4 flex cursor-pointer">
-                                        {/* Player image on the left */}
+                                        
                                         <img src="https://images.chesscomfiles.com/uploads/v1/news/1256143.3bd36cc8.668x375o.aadf9355e5f2@2x.png" alt="Female Player" className="w-24 h-24 mb-2 rounded-full" />
-                                        {/* Player details on the right */}
+                                        
                                         <div className="ml-4">
                                             <p className="font-semibold">Ju Wenjun</p>
                                             <p className="text-gray-500">Grandmaster</p>
@@ -64,7 +62,7 @@ const Home = () => {
                                         </div>
                                     </div>
                                 </a>
-                                {/* Female leaderboard image */}
+                                
                                 <div className="mt-4 text-center px-20 py-10">
                                     <a href="https://2700chess.com/women" target="_blank" rel="noopener noreferrer">
                                         <img src="https://2700chess.com/files/topten_women.png" alt="Top Ten Women Players" title="Top Ten Women Players" />
@@ -79,21 +77,19 @@ const Home = () => {
                             Discover players and stay updated!
                         </h2>
                         <div className="flex justify-center gap-8">
-                            {/* Chess.com Profile Search */}
+                            
                             <div className="flex items-center">
                                 <img
                                     src="https://avatars.githubusercontent.com/u/577023?s=280&v=4"
                                     alt="Chess.com"
                                     className="w-24 h-24 rounded-full mr-4"
                                 />
-                                <a
-                                    href="/chesscomid"
-                                    target="_blank"
+                                <Link to="/chesscomid"
                                     rel="noopener noreferrer"
                                     className="bg-green-600 hover:bg-green-700 text-white font-semibold px-8 py-3 rounded-md shadow-md transition duration-300 ease-in-out"
                                 >
                                     Chess.com Profile
-                                </a>
+                                </Link>
                             </div>
 
                             {/* Lichess Profile Search */}
@@ -103,14 +99,12 @@ const Home = () => {
                                     alt="Lichess"
                                     className="w-24 h-24 mr-4"
                                 />
-                                <a
-                                    href="/lichessid"
-                                    target="_blank"
+                                <Link to="/lichessid"
                                     rel="noopener noreferrer"
                                     className="bg-black hover:bg-gray-800 text-white font-semibold px-8 py-3 rounded-md shadow-md transition duration-300 ease-in-out"
                                 >
                                     Lichess Profile
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
