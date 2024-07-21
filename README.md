@@ -14,18 +14,21 @@
 Here are some screenshots of the BookVerse application:
 
 ### Homepage
-![Homepage](screenshots/homepage.png)
+![Homepage1](screenshots/home-1.png)
 
-### Book Details Page
-![Book Details](screenshots/book_details.png
+### Top Chess Players
+![top_players](screenshots/home-2.png)
+
+### Chess.com Profile Tracker
+![chess.com](screenshots/chess.com.png
 )
 
-### All Books Page
-![All Books](screenshots/all_books.png
+### Lichess Profile Tracker
+![lichess](screenshots/lichess.png
 )
 
-### Favourites Page
-![Favourites](screenshots/favourites.png
+### About Page
+![about](screenshots/about.png
 )
 
 ## Tech Stack
