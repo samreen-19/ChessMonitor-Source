@@ -52,7 +52,7 @@ Here are some screenshots of the BookVerse application:
     cd ChessMonitor
     ```
 
-2. **Setup Frontend:**
+2. **Setup:**
 
     - Navigate to the project directory:
 
