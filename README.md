@@ -9,6 +9,25 @@
 - **Statistics:** View detailed statistics about your chess performance.
 - **Latest news:** Access the latest standings of players in the chess world.
 
+## Screenshots
+
+Here are some screenshots of the BookVerse application:
+
+### Homepage
+![Homepage](screenshots/homepage.png)
+
+### Book Details Page
+![Book Details](screenshots/book_details.png
+)
+
+### All Books Page
+![All Books](screenshots/all_books.png
+)
+
+### Favourites Page
+![Favourites](screenshots/favourites.png
+)
+
 ## Tech Stack
 
 - **Frontend:** React, Tailwind CSS
@@ -67,6 +86,3 @@ To use the ChessMonitor application locally:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Screenshots
-
-Include screenshots here to showcase your application.
